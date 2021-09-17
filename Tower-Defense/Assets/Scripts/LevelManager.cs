@@ -21,6 +21,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject _towerUIPrefab;
     [SerializeField] private Tower[] _towerPrefabs;
 
+    private List<Tower> _spawnedTowers = new List<Tower>();
+
     private void Start()
     {
         InstantiateAllTowerUI();
@@ -36,5 +38,10 @@ public class LevelManager : MonoBehaviour
             newTowerUI.SetTowerPrefab(tower);
             newTowerUI.transform.name = tower.name;
         }
+    }
+
+    public void RegisterSpawnedTower(Tower tower)
+    {
+        _spawnedTowers.Add(tower);
     }
 }
