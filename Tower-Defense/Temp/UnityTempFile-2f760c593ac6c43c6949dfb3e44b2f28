@@ -298,6 +298,8 @@
 /define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
+"Assets/Scripts/AudioPlayer.cs"
+"Assets/Scripts/Bullet.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/LevelManager.cs"
 "Assets/Scripts/Tower.cs"

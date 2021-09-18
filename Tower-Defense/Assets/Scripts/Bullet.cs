@@ -12,7 +12,12 @@ public class Bullet : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(_targetEnemy != null)
+        if(LevelManager.Instance.IsOver)
+        {
+          return;
+        }
+
+        if (_targetEnemy != null)
         {
             if(!_targetEnemy.gameObject.activeSelf)
             {
@@ -25,6 +30,7 @@ public class Bullet : MonoBehaviour
             float targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, targetAngle - 90f));
         }
+       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
