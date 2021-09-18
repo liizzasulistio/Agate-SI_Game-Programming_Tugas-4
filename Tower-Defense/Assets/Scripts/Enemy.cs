@@ -65,10 +65,13 @@ public class Enemy : MonoBehaviour
     {
         _currentHealth -= damage;
         _healthFill.size = new Vector2((float)_currentHealth / (float)_maxHealth * _healthBar.size.x, _healthFill.size.y);
+        AudioPlayer.Instance.PlaySFX("hit-enemy");
 
         if(_currentHealth <= 0)
         {
+            _currentHealth = 0;
             gameObject.SetActive(false);
+            AudioPlayer.Instance.PlaySFX("enemy-die");
         }
     }
 }
