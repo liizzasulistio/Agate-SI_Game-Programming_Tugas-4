@@ -866,6 +866,22 @@ MonoBehaviour:
   - {fileID: 4846100394657675224, guid: 3af36a0ef8d7e46c7a2de180ccaee146, type: 3}
   - {fileID: 7059548488480340976, guid: ff1561b845aaf4366b9c10480b61f68f, type: 3}
   - {fileID: 2026998395413483790, guid: 9cf9669b1159c48e48710a769aa2c34f, type: 3}
+  _enemyPrefabs:
+  - {fileID: 3004093857495203331, guid: d6e1af22566f64dd9947afb25d37d86e, type: 3}
+  - {fileID: 1802411468270753530, guid: 5824092d34e914ca18ad1b51d3b6a2d0, type: 3}
+  _enemyPaths:
+  - {fileID: 2004330011}
+  - {fileID: 1864201425}
+  - {fileID: 1547506797}
+  - {fileID: 1053132756}
+  - {fileID: 1120431019}
+  - {fileID: 1888767802}
+  - {fileID: 1612546326}
+  - {fileID: 1244310947}
+  - {fileID: 1353344037}
+  - {fileID: 534339181}
+  - {fileID: 265378392}
+  _spawnDelay: 5
 --- !u!1 &961577504
 GameObject:
   m_ObjectHideFlags: 0

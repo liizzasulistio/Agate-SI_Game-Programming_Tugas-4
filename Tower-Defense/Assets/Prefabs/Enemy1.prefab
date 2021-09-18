@@ -83,11 +83,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8087807584514511525, guid: ef32aaf5b0edd434aa706fdcc46127b8,
+        type: 3}
+      propertyPath: _moveSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087807584514511525, guid: ef32aaf5b0edd434aa706fdcc46127b8,
+        type: 3}
+      propertyPath: _healthBar
+      value: 
+      objectReference: {fileID: 2605830356088437470}
+    - target: {fileID: 8087807584514511525, guid: ef32aaf5b0edd434aa706fdcc46127b8,
+        type: 3}
+      propertyPath: _healthFill
+      value: 
+      objectReference: {fileID: 7484578537626270800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef32aaf5b0edd434aa706fdcc46127b8, type: 3}
 --- !u!1 &8623941862277964426 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3324606749636251180, guid: ef32aaf5b0edd434aa706fdcc46127b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 6452819715690441894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &2605830356088437470 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 9053574115915011704, guid: ef32aaf5b0edd434aa706fdcc46127b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 6452819715690441894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &7484578537626270800 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4491097981216641270, guid: ef32aaf5b0edd434aa706fdcc46127b8,
     type: 3}
   m_PrefabInstance: {fileID: 6452819715690441894}
   m_PrefabAsset: {fileID: 0}
