@@ -28,6 +28,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy1
       objectReference: {fileID: 0}
+    - target: {fileID: 8087807584514511525, guid: ef32aaf5b0edd434aa706fdcc46127b8,
+        type: 3}
+      propertyPath: _moveSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087807584514511525, guid: ef32aaf5b0edd434aa706fdcc46127b8,
+        type: 3}
+      propertyPath: _healthBar
+      value: 
+      objectReference: {fileID: 2605830356088437470}
+    - target: {fileID: 8087807584514511525, guid: ef32aaf5b0edd434aa706fdcc46127b8,
+        type: 3}
+      propertyPath: _healthFill
+      value: 
+      objectReference: {fileID: 7484578537626270800}
+    - target: {fileID: 8087807584514511525, guid: ef32aaf5b0edd434aa706fdcc46127b8,
+        type: 3}
+      propertyPath: _maxHealth
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7150099217084985320, guid: ef32aaf5b0edd434aa706fdcc46127b8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -83,21 +103,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8087807584514511525, guid: ef32aaf5b0edd434aa706fdcc46127b8,
-        type: 3}
-      propertyPath: _moveSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087807584514511525, guid: ef32aaf5b0edd434aa706fdcc46127b8,
-        type: 3}
-      propertyPath: _healthBar
-      value: 
-      objectReference: {fileID: 2605830356088437470}
-    - target: {fileID: 8087807584514511525, guid: ef32aaf5b0edd434aa706fdcc46127b8,
-        type: 3}
-      propertyPath: _healthFill
-      value: 
-      objectReference: {fileID: 7484578537626270800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef32aaf5b0edd434aa706fdcc46127b8, type: 3}
 --- !u!1 &8623941862277964426 stripped

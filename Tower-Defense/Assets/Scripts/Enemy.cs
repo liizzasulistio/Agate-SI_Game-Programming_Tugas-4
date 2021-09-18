@@ -64,6 +64,8 @@ public class Enemy : MonoBehaviour
     public void ReduceEnemyHealth(int damage)
     {
         _currentHealth -= damage;
+        _healthFill.size = new Vector2((float)_currentHealth / (float)_maxHealth * _healthBar.size.x, _healthFill.size.y);
+
         if(_currentHealth <= 0)
         {
             gameObject.SetActive(false);
